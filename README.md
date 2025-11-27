@@ -3,13 +3,10 @@ DND Password Generator is a Linux password generator that uses the main dice fro
 
 Here’s how it works:
 
-D20 + D12 + D6: generates 7 random letters (uppercase or lowercase).
-
-D10: generates 3 random numbers.
-
-D8: generates 2 special symbols (ASCII symbols from 33 to 40).
-
-D4: determines the random order of combining the above elements and adds an extra special symbol “@”.
+- D20 + D12 + D6: generates 7 random letters (uppercase or lowercase).
+- D10: generates 3 random numbers.
+- D8: generates 2 special symbols (ASCII symbols from 33 to 40).
+- D4: determines the random order of combining the above elements and adds an extra special symbol “@”.
 
 The program uses /dev/urandom to increase randomness, shuffles all the elements according to a random order, and constructs the final password.
 
